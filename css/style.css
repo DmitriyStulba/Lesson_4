@@ -1,0 +1,219 @@
+ /* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap&subset=cyrillic-ext');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap&subset=cyrillic-ext');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&display=swap&subset=cyrillic-ext'); 
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap&subset=cyrillic-ext');
+
+/* через плагин */
+/* @import url("https://fonts.googleapis.com/css?family=Gluten:100,200,300,regular,500,600,700,800,900&display=swap&subset=cyrillic-ex");  */
+
+/* @import url("https://fonts.googleapis.com/css?family=Besley:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic&display=swap&subset=cyrillic-ex"); */
+
+/* @import url("https://fonts.googleapis.com/css?family=Rubik+Beastly:regular&display=swap&subset=cyrillic-ext"); */
+
+/* через генератор */
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy-BoldItalic.woff2") format("woff2"),
+        url("../fonts/Gilroy-BoldItalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+} 
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+        url('../fonts/Gilroy-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}  
+
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	 font-family: 'Caveat', cursive; 
+	 line-height: 1;
+}
+
+/* ------------------------------ */
+
+
+h3 {
+	font-size: 35px;
+	text-decoration: underline;
+	color: rgb(28, 139, 28);
+	text-shadow: 2px 2px 2px rgb(146, 34, 49);
+}
+
+nav {
+	font-family: 'Amatic SC', cursive;
+	font-size: 25px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	line-height: 200%;
+	text-transform: capitalize;
+}
+h2 {
+	color: rgb(32, 146, 148);
+	font-size: 40px;
+    text-decoration: underline; 
+	text-align: center;
+	letter-spacing: 5px;
+
+}
+#toptop {
+	font-size: 10px;
+	text-decoration: underline;
+	color: rgb(185, 173, 173);
+}
+.start h1 {
+	font-family: "Rubik Beastly", fantasy;
+	font-size: 50px;
+	font-style: oblique;
+	font-weight: 400;
+	color: rgb(207, 100, 23);
+	text-align: center;
+	text-shadow: 5px 5px 5px cornflowerblue;
+	letter-spacing: 5px;
+}
+.start p {
+	font-family: "Lobster", fantasy;
+	font-size: 20px;
+	font-style: oblique;
+	font-weight: 400;
+	color: rgb(30, 164, 218);
+	text-align: center;
+	text-shadow: 2px 2px 2px rgb(231, 140, 88);
+	letter-spacing: 4px;
+	line-height: 150%;
+}
+.start span {
+	font-family: "Lobster", fantasy;
+	font-size: 25px;
+	font-style: oblique;
+	text-decoration: underline;
+	font-weight: 400;
+	color: rgb(6, 95, 131);
+	text-align: center;
+	text-shadow: 2px 2px 2px rgb(231, 140, 88);
+	letter-spacing: 10px;
+}
+
+
+.the_first_div {
+	text-align: center;
+}
+.the_first_div p{
+	font-size: 30px;
+	color: rgb(14, 103, 192);
+	text-shadow: 1px 1px 1px gray;
+	line-height: 150%;
+}
+.span_one {
+	font-family: "Gilroy", sans-serif;
+	color: grey;
+	font-weight: 700;
+	font-style: italic;
+
+}
+.the_second_div h3 {
+	font-family: "Rubik Beastly", fantasy;
+	text-align: left;
+	font-style: normal;
+	color: rgba(38, 216, 32, 0.5);
+	text-decoration: none;
+}
+
+.prod_one {
+	font-family: "Gilroy", sans-serif;
+	font-size: 20px; 
+	color: rgb(124, 181, 200);
+	font-weight: 500;
+	font-style: normal;
+	line-height: 170%;
+}
+
+.ul_end {
+	font-family: 'Amatic SC', cursive;
+	color: rgb(78, 219, 78);
+	text-shadow:1px 1px 1px lightslategray;
+	font-size: 20px;
+	text-align: left;
+}
+
+.eat_one,
+.eat_two,
+.eat_three {
+	font-size: 25px;
+	color: rgb(185, 8, 120);
+	word-spacing: 10px;
+}
+.eat_three ~ p {
+	font-size: 30px;
+	color: rgb(212, 79, 31, 0.12);
+	text-indent: 100px;
+	text-transform: capitalize;
+	text-shadow: 2px 2px 2px rgba(107, 151, 63, 0.89);
+
+} 
+.ethics ~ * {
+	font-size: 30px;
+	color: orange;
+	text-decoration: line-through;
+}
+
+.the_fourth_div h3 {
+	text-align: center;
+
+}
+.page_footer span{
+	font-family: "Rubik Beastly", fantasy;
+	font-size: 25px;
+	text-shadow: 2px 2px 2px  rgb(14, 103, 192);
+
+}
+.page_footer p {
+	font-family: "Gilroy", sans-serif;
+	color: rgb(14, 103, 192);
+	font-weight: 500;
+	font-style: normal;
+	text-align: center;
+	text-transform: capitalize;
+}
